@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" >
+         <title> Environmental Monitoring </title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,800;1,400&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <section class="header">
+    <nav>
+        <a href="index.html"><img src ="images/logo.png" ></a>
+        
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="data.html">REAL TIME DATA </a></li>
+            <li><a href="contact.html">CONTACT</a></li>     
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+<div class="text-box">
+    <p>Environmental monitoring</p>
+        <p>welcome to the website for real time environmental monitoring of parks exclusively </p>
+    
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+        
+        
+        </div>
+    
+    </section>
+    
+    <!--------------sensors used----------->
+    <section class="Feature">
+    <h1>Features we offer</h1>
+    <p>Real time monitoring of parks and suggestions on visiting the parks, the parameters monitored are listed below</p>
+        
+        <div class="row">
+        <div class="Feature-col">
+            <h3>Temperature</h3>
+            <p>The DHT11 temperature sensor is an essential component for our real-time data website, providing accurate and up-to-the-minute temperature information. This cost-effective digital sensor can measure temperatures in the range of 0 to 50 degrees Celsius, delivering precise data that is crucial for various applications.</p>
+        </div>
+            <div class="Feature-col">
+            <h3>Humidity</h3>
+            <p>The humidity sensor we employ in our real-time data website is a key component for delivering precise and up-to-the-moment humidity information. Our chosen humidity sensor, often the DHT11, offers reliable measurements of relative humidity in the range of 20% to 80%.</p>
+        
+        </div>
+        
+            
+            <div class="Feature-col">
+            <h3>IR sensor</h3>
+            <p>Our website employs Infrared (IR) sensors for real-time motion detection, enhancing security and automation features. These sensors detect changes in the infrared radiation within their field of view, making them highly effective in monitoring movement.</p>
+        </div>
+            <div class="Feature-col">
+            <h3>LDR sensor</h3>
+            <p>In parks, our website employs Light-Dependent Resistor (LDR) sensors to provide an enhanced and energy-efficient lighting solution. These sensors are pivotal in automatically turning on park lights as darkness falls, creating a safer and more inviting environment for park-goers.</p>
+        </div>
+            
+        </div>
+    </section>
+    <!--------footer----------->
+    <section class="footer">
+    
+    <h4>About us</h4>
+        <p> We are here to assist you</p>
+        <div class="icons">
+        
+                    <i class="fa fa-facebook" ></i>
+                    <i class="fa fa-twitter" ></i>
+                    <i class="fa fa-instagram" ></i>
+                    <i class="fa fa-linkedin" ></i>
+        </div>
+        <p>Made with  <i class="fa fa-heart-o" ></i></p>
+        
+    </section>
+    
+    
+    <!------JavaScript for toggle menu----->
+    <script>
+    var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+                    }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+                    }
+    </script>
+    </body>
+    
+    </html>
+    
