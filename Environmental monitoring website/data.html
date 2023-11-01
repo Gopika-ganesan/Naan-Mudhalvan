@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" >
+         <title>Environmental monitoring</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,800;1,400&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <section class="realtimedata-sub-header">
+    <nav>
+        <a href="index.html"><img src ="images/logo.png" ></a>
+        
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="data.html">REAL TIME DATA</a></li>
+            <li><a href="contact.html">CONTACT</a></li>    
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <h1>Real Time Data</h1>
+    
+    </section>
+    
+    <!-------Real time data----->
+    <section class="realtimedata-content">
+        <div class="row">
+        <div class="realtimedata-left">
+            <img src="images/park.jpeg">
+            <h2>Our project features</h2>
+            <p>Welcome to our innovative Environmental Monitoring System, tailored to enhance your experience at our beautiful parks. We've harnessed the power of modern technology to keep our parks safe, comfortable, and enjoyable for everyone. Our system is equipped with advanced sensors, including the DHT11 for temperature and humidity, a PIR sensor for motion detection, and an LDR sensor to assess light levels. These sensors work in harmony to provide real-time data updates through the Wokwi platform, giving you immediate access to essential information about the park's environment.
+                    </p><br><p>
+            At the heart of our Environmental Monitoring System is a commitment to creating a seamless and comprehensive solution for park management. The data from these sensors is transmitted in real-time to our user-friendly Wokwi dashboard, offering a convenient way for park staff to monitor and optimize the park's conditions. Whether it's ensuring the comfort of visitors, improving security, or making data-driven decisions, our system provides the tools to manage our parks effectively. With historical data logging and customizable alerts, we keep our parks safe, efficient, and delightful for all who visit.
+
+                 </p><br><p>
+
+            Our mission is to provide an exceptional park experience for all, and our Environmental Monitoring System plays a pivotal role in achieving this goal. Our website's user-friendly interface offers immediate access to real-time updates, historical records, and alert notifications, all of which contribute to a superior park experience. We're dedicated to making our parks not just beautiful, but also smart and responsive. With our system in place, our parks will remain places of natural beauty and relaxation, while ensuring that visitors' needs and safety are always a top priority. Your park, your experience, and all the data you need, at your fingertips.
+
+            
+</p>
+            <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+            
+            <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your Comment">
+                </textarea>
+                <button type="Submit" class="hero-btn red-btn">POST COMMENT</button>
+                
+            </form>
+           </div> 
+            
+            </div>
+        <div class="realtimedata-right">
+            <h3>Link for the website</h3>
+            
+            
+            <div>
+            <a href="https://thingspeak.com/channels/2321864"class="realtimedata-hero-btn">Real Time Data</a>
+            
+    </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--------footer----------->
+    <section class="footer">
+    
+    <h4>About us</h4>
+        <p> We are here to assist you</p>
+        <div class="icons">
+        
+                    <i class="fa fa-facebook" ></i>
+                    <i class="fa fa-twitter" ></i>
+                    <i class="fa fa-instagram" ></i>
+                    <i class="fa fa-linkedin" ></i>
+        </div>
+        <p>Made with  <i class="fa fa-heart-o" ></i></p>
+        
+    </section>
+    
+    
+    <!------JavaScript for toggle menu----->
+    <script>
+    var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+                    }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+                    }
+    </script>
+    </body>
+
+
+</html>
+                    
+    
+    
+    
